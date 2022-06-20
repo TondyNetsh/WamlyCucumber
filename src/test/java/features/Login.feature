@@ -3,7 +3,6 @@ Feature: Wamly feature to test login to wamly
     Given User is on Wamly login page
     When User enters <username> and clicks next
     Then User Enters <password> to login
-    And User clicks on login button
     Then User is navigated to Wamly dashboard
 
   Examples:
